@@ -14,6 +14,8 @@ namespace BancoWeb.Models
 
         public int QuantiaId { get; set; }
 
+        public TipoTransacao tipoTransacao { get; set; }
+
         public SalvarTransacao()
         {
         }

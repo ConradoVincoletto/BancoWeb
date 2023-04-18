@@ -29,7 +29,7 @@ namespace BancoWeb.Models
         [StringLength(6, MinimumLength = 3, ErrorMessage = "A senha deve conter no mínimo 3 a 6 caracteres.")]
         public string Senha { get; set; }
 
-
+        public ICollection<SalvarTransacao> Transacao { get; set; } = new List<SalvarTransacao>();
 
         public ContaCorrente()
         {
