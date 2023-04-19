@@ -2,7 +2,7 @@
 
 namespace BancoWeb.Models.ViewMoldes
 {
-    public class Login
+    public class LoginFormulario
     {
         [Required]
         public int Numero { get; set; }
